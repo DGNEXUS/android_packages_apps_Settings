@@ -4703,6 +4703,185 @@
     <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
     <string name="pref_use_16bpp_alpha_summary">Better graphics performance, but lower quality and may cause visual artifacts (requires reboot)</string>
 
+<!-- Extra Settings -->
+    <string name="rom_control_title">Extra Settings</string>
+
+   <!-- added by Kejar31 for Perfomance settings to GummyNex and Liberty --
+    <string name="performance_settings">Performance</string>
+    <string name="voltage_control">Voltage Control</string>
+
+  <!-- added by Kejar31 kang from XoomDev settgings for nav bar --
+    <string name="navigation_bar_prefs_title">Softkeys settings</string>
+    <string name="show_menu_button_title">Show menu button in nav bar</string>
+    <string name="show_search_button_title">Show search button in nav bar</string>
+    <string name="navigation_bar_prefs">SoftKeys</string>
+
+    <!--  LED -->
+    <string name="title_led_on">LED pulse ON duration</string>
+    <string name="summary_led_on">@null</string>
+    <string name="title_led_off">LED pulse OFF duration</string>
+    <string name="summary_led_off">@null</string>
+    <string name="led_color_title">LED color</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>   
+    <string name="arrow_right">→</string> 
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">ICS</string>
+
+    <!-- Performance Tool Strings -->
+    <string name="prefcat_cpu">Set CPU</string>
+    <string name="prefcat_free_memory">Free Memory</string>
+    <string name="pc_tweaks">Tweaks</string>
+    <string name="pc_init_d">Enable/Disable Tweaks</string>
+    <string name="pc_init_d_tweaks">Customize Tweaks</string>
+    <string name="pt_init_d">Start-up Tweaks</string>
+    <string name="pt_enable_init_d">Enable start-up tweaks</string>
+    <string name="pt_zipalign">Zipalign apks</string>
+    <string name="pt_enable_sd_boost">Enable SD boost</string>
+    <string name="pt_sd_boost">Read ahead value</string>
+    <string name="pt_fix_permissions">Fix permissions</string>
+    <string name="pt_clear_cache">Clear cache</string>
+    <string name="pt_enable_sysctl">Enable sysctl</string>
+    <string name="pt_enable_cron">Enable scheduled tasks</string>
+    <string name="pt_set_cpu_activity">Set cpu</string>
+    <string name="pt_free_memory">Free memory</string>
+    <string name="pt_free_memory_boot">Set at boot</string>
+    <string name="pt_set_max">Max cpu</string>
+    <string name="pt_set_min">Min cpu</string>
+    <string name="pt_set_gov">Scaling governor</string>
+    <string name="pt_cpu_boot">Set at boot</string>
+    <string name="ps_init_d">Configure tweaks that are run at boot
+                (init.d)
+    </string>
+    <string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+    <string name="ps_zipalign">zipalign any unaligned apps on each boot</string>
+    <string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+    <string name="ps_sd_boost">Set value of read ahead in kb</string>
+    <string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+    <string name="ps_clear_cache">Clear data cache on each boot</string>
+    <string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
+    <string name="ps_enable_cron">Enable scheduled cron jobs</string>
+    <string name="ps_set_max">Set max cpu scaling frequency\nCurrent: %s</string>
+    <string name="ps_set_min">Set min cpu scaling frequency\nCurrent: %s</string>
+    <string name="ps_set_gov">Set current scaling governor\nCurrent: %s</string>
+    <string name="ps_cpu_boot">Apply cpu at boot</string>
+    <string name="ps_set_cpu_activity">Set min/max frequencies and scaling governor
+    </string>
+    <string name="ps_free_memory">Amount of ram the minfree taskkiller will keep |
+                Current: %s</string>
+    <string name="ps_free_memory_boot">Apply the amount above at boot</string>
+    <string name="toast_min_max_error01">Max cpu cannot be lower than min cpu</string>
+    <string name="toast_min_max_error02">Min cpu cannot be higher than max cpu</string>
+    <string name="freq">Frequency</string>
+    <string name="current">mV current</string>
+    <string name="saved">mV saved</string>
+    <string name="error_values">Error getting values</string>
+    <string name="set_boot">Set On Boot</string>
+    <string name="apply_values">Apply Values</string>
+    <string name="dt_free_memory">Minfree Taskkiller</string>
+
+    <!-- Strings for Gummy Settings-->
+    <string name="gummy_settings_title">ICY Control</string>
+    <string name="led_settings">LED Settings</string>
+    <string name="systemui_tweaks">SystemUI Tweaks</string>
+    <string name="lockscreen_settings">Lockscreen Settings</string>
+    <string name="general_settings">General UI Settings</string>
+    <string name="softkey_settings">Soft Key Settings</string>
+    <string name="about_gummy">About ICY Rom</string>
+
+    <!-- Strings for SystemUI Tweaks Menu -->
+    <string name="clock_style_title">Clock style</string>
+    <string name="am_pm_style_title">AM PM style</string>
+    <string name="hide_alarm">Hide Alarm</string>
+    <string name="battery_types">Battery Types</string>
+    <string name="carrier_text">Custom Carrier Text</string>
+    <string name="hide_battery">Hide Battery Icon</string>
+    <string name="battery_bar">Battery Bar</string>
+    <string name="battery_bar_color">Battery Bar Color</string>
+    <string name="softkey_color">Soft Key Icon Color</string>
+    <string name="clock_color">Clock Color</string>
+    <string name="toggle_color">Toggle Color Picker</string>
+    <string name="date_opens_calendar">Date opens Calendar</string>
+
+    <!-- Strings for Lockscreen Settings Menu -->
+    <string name="lockscreen_battery">Lockscreen Battery %</string>
+    <string name="lockscreen_extra">Enable Custom App Icons</string>
+    <string name="lockscreen_before_unlock">Lockscreen before Unlock</string>
+    <string name="group_applications">Applications</string>
+    <string name="select_custom_app_title">Select custom application</string>
+    <string name="custom_app_1">Custom App</string>
+    <string name="custom_app_2">Custom App 2</string>
+    <string name="custom_app_1_summary">Choose a custom app to launch</string>
+    <string name="custom_app_2_summary">Choose a custom app to launch</string>
+    <string name="volume_wake">Enable Volume Rocker Wake</string>
+    <string name="quick_password_title">Quick Password Unlock</string>
+    <string name="quick_password_summary">Allows you to not hit the enter key on password lockscreens</string>
+    <string name="sound_or_camera_title">Camera/Sound Picker</string>
+    <string name="sound_or_camera_summary">Pick what toggle you want for to show on the lockscreen</string>
+    <string name="lockscreen_styles_title">Lockscreen Style</string>
+    <string name="lockscreen_styles_summary">Pick what Lockscreen Style you would like to use</string>
+    <string name="rotary_arrows_title">Hide Rotary Arrows</string>
+    <string name="rotary_down_title">Rotary Pulldown Unlock</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Select which shortcut to set</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Add</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Remove</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Select which shortcut to un-set</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Cancel</string>
+    <string name="lockscreen_music_widget_title">Music Widget Type</string>
+    <string name="lockscreen_music_widget_summary">Pick the lockscreen music widget you want to use</string>
+
+    <!-- Strings for Battery Color Menu -->
+    <string name="battery_text_color">Battery Text Colors</string>
+    <string name="allow_color_changes">Allow Custom Text Colors</string>
+    <string name="battery_text_charge">Battery Charging Color</string>
+    <string name="battery_text_normal">Battery Color (Above 15%)</string>
+    <string name="battery_text_low">Battery Color (Below 15%)</string>
+
+    <!-- Strings for General UI Settings -->
+    <string name="turn_degree">Enable 180 Degree Rotation</string>
+    <string name="kill_app">Longpress Back Button App Kill</string>
+    <string name="enable_volume_options">Enable Volume Options</string>
+    <string name="brightness_slider">Statusbar Brightness Slider</string>
+    <string name="brightness_slider_sum">The ability to slide your finger across the statusbar to adjust brightness</string>
+    <string name="unlink_volumes_title">Unlink Notification Volume</string>
+    <string name="unlink_volumes_summary">Unlinks the notification volume with the ringer volume</string>
+    <string name="power_widgets">Power Widgets</string>
+
+    <!-- Strings for Soft Key Settings -->
+    <string name="title_pref_menu_display">Menu location</string>
+    <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
+    <string name="navigation_bar">Navigation bar</string>
+    <string name="navigation_bar_tint_title">Navigation bar color</string>
+
+    <string name="title_pref_navigation_menu_display">Menu visibility</string>
+    <string name="summary_pref_navigation_menu_display">How and when do you want the menu buttons to appear?</string>
+
+    <string name="navbar_order_title">Navigation button order</string>
+    <string name="navbar_order_summary">Customize the order of your soft keys</string>
+
+    <string name="enabled_navbar_buttons_title">Enabled buttons</string>
+    <string name="enabled_navbar_buttons_summary">Choose which soft keys you would like to see</string>
+    
+    <string name="button_transparency_title">Nav button transparency</string>
+    
+    <string name="long_press_home_title">Long press home action</string>
+    <string name="long_press_home_summary">What to do when long pressing the home softkey. Reboot required to reflect changes.</string>
+    
+    <string name="glow_times_title">Button glow animation</string>
+    <string name="glow_times_summary">Adjust how fast your buttons animate after you touch them. Lowering the speed can improve performance.</string>
+
+    <!-- About Strings-->
+    <string name="gummy_links">DG Rom Site Links</string>
+    <string name="gummy_site_title">Home Page</string>
+    <string name="gummy_site_summary">http://www.drewgaren.com</string>
+    <string name="gummy_source_title">DG Source</string>
+    <string name="gummy_source_summary">http://www.github.com/DGNEXUS</string>
+
     <!-- System Updates  -->
     <!-- About device screen, list item title. Takes the user to the screen for seeing and installing system updates. -->
     <string name="system_update_settings_list_item_title">System updates</string>
@@ -4717,11 +4896,11 @@
 
     <!-- Anonymous Statistics  -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">CyanogenMod statistics</string>
-    <string name="anonymous_statistics_summary">Help make CyanogenMod better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">ICYmod statistics</string>
+    <string name="anonymous_statistics_summary">Help make ICYmod better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into CyanogenMod statistics will allow non-personal data to be submitted to the
-        developers of CyanogenMod to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into ICYmod statistics will allow non-personal data to be submitted to the
+        developers of ICYmod and Cyanogenmod to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -4730,7 +4909,7 @@
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable CyanogenMod statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable ICYmod statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
@@ -4870,7 +5049,7 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">CyanogenMod version</string>
+    <string name="mod_version">ICYmod version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
